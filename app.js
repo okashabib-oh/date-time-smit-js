@@ -1,6 +1,6 @@
 let myDate = new Date()
 
-const myTime = myDate.toLocaleString('default', {
+const myTime = myDate.toLocaleTimeString('default', {
     hour: '2-digit',
     minute: '2-digit'
 });
